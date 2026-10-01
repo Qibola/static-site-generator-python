@@ -1,0 +1,7 @@
+/* Minimal baseline styling. Full theme comes in a later roadmap step. */
+body {
+  font-family: system-ui, sans-serif;
+  margin: 2rem auto;
+  max-width: 40rem;
+  line-height: 1.5;
+}
