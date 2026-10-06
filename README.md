@@ -33,10 +33,17 @@ Running `--content-dir`/`--output-dir` will, in addition to the per-page
 HTML, write one `tag-<slug>.html` page per tag (listing every post that
 uses it) and a `feed.xml` RSS 2.0 feed listing every page, newest first.
 
+## Theme
+
+`static/style.css` is the site theme: CSS variables for colors, a styled nav bar,
+code blocks, and automatic dark mode via `prefers-color-scheme`. Edit the
+variables at the top of the file to re-skin the site. Templates include a
+viewport meta tag, so the layout is mobile-friendly.
+
 ## Roadmap
 
 - [x] Scaffold: README, requirements.txt, .gitignore, content/templates/static folders
 - [x] Parse a single Markdown file to HTML via a shared template
 - [x] Build a multi-page site with shared navigation across pages
 - [x] Add tag pages and an RSS feed
-- [ ] CSS theme + polish
+- [x] CSS theme + polish
